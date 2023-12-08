@@ -50,7 +50,7 @@ export default function RootLayout({
         <meta name="msapplication-config" content="/assets/icons/browserconfig.xml" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
       </head>
-      <body><Navigation />{children}</body>
+      <body className='h-screen w-screen'><Navigation />{children}</body>
     </html>
   )
 }
